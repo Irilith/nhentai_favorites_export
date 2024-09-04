@@ -1,0 +1,10 @@
+[package]
+name = "nhentai_favorites_export"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+select = "0.6"
+regex = "1.10"
+serde_json = "1"
+csv = "1.3"
