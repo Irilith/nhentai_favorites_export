@@ -3,6 +3,11 @@ name = "nhentai_favorites_export"
 version = "0.1.0"
 edition = "2021"
 
+[profile.release]
+lto = true
+opt-level = 'z'
+codegen-units = 1 
+
 [dependencies]
 select = "0.6"
 regex = "1.10"

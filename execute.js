@@ -50,7 +50,7 @@ async function fetchAllPages() {
 		const link = document.createElement('a');
 
 		link.href = URL.createObjectURL(blob);
-		link.download = '.nhent';
+		link.download = 'nhent';
 		link.click();
 
 		console.log('Done');
